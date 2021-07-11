@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/breath-normalizer/static/css/main.9326f92e.chunk.css",
+    "main.js": "/breath-normalizer/static/js/main.444f1b30.chunk.js",
+    "main.js.map": "/breath-normalizer/static/js/main.444f1b30.chunk.js.map",
+    "runtime-main.js": "/breath-normalizer/static/js/runtime-main.2ea57481.js",
+    "runtime-main.js.map": "/breath-normalizer/static/js/runtime-main.2ea57481.js.map",
+    "static/js/2.718e9da2.chunk.js": "/breath-normalizer/static/js/2.718e9da2.chunk.js",
+    "static/js/2.718e9da2.chunk.js.map": "/breath-normalizer/static/js/2.718e9da2.chunk.js.map",
+    "index.html": "/breath-normalizer/index.html",
+    "static/css/main.9326f92e.chunk.css.map": "/breath-normalizer/static/css/main.9326f92e.chunk.css.map",
+    "static/js/2.718e9da2.chunk.js.LICENSE.txt": "/breath-normalizer/static/js/2.718e9da2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ea57481.js",
+    "static/js/2.718e9da2.chunk.js",
+    "static/css/main.9326f92e.chunk.css",
+    "static/js/main.444f1b30.chunk.js"
+  ]
+}
