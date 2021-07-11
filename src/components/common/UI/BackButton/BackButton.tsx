@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import AnimatedWrapper from "../UI/AnimatedWrapper";
+import AnimatedWrapper from "../../AnimatedWrapper/AnimatedWrapper";
 
 import "./BackButton.scss";
 

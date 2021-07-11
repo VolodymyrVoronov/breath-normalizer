@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import AnimatedWrapper from "../common/UI/AnimatedWrapper";
+import AnimatedWrapper from "../common/AnimatedWrapper/AnimatedWrapper";
 
 import "./StartPage.scss";
 

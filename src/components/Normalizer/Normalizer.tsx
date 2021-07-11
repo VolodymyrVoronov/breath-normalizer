@@ -4,7 +4,7 @@ import { useStopwatch } from "react-timer-hook";
 
 import { formatTime } from "../../helpers";
 
-import BackButton from "./../common/BackButton/BackButton";
+import BackButton from "../common/UI/BackButton/BackButton";
 
 import "./Normalizer.scss";
 

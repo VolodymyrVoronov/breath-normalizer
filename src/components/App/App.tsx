@@ -10,7 +10,6 @@ const App = (): React.ReactElement => {
         <Route exact path="/">
           <StartPage />
         </Route>
-
         <Route exact path="/normalizer">
           <Normalizer />
         </Route>
