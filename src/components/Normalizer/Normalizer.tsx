@@ -9,8 +9,8 @@ import BackButton from "../common/UI/BackButton/BackButton";
 import "./Normalizer.scss";
 
 interface ILocationState {
-  duration: number;
-  time: number;
+  duration?: number;
+  time?: number;
 }
 
 const Normalizer = (): React.ReactElement => {
@@ -21,9 +21,14 @@ const Normalizer = (): React.ReactElement => {
   const [toggleAnimation, setToggleAnimation] = React.useState<boolean>(true);
   const [breathingInterval, setBreathingInterval] = React.useState<number>(0);
 
-  const { seconds, minutes } = useStopwatch({ autoStart: true });
+  let duration = location.state?.duration;
+  let time = location.state?.time;
 
-  const { duration, time } = location.state;
+  if (!location.state?.duration && !location.state?.time) {
+    history.push("/");
+  }
+
+  const { seconds, minutes } = useStopwatch({ autoStart: true });
 
   React.useEffect(() => {
     const interval = setInterval(() => {
